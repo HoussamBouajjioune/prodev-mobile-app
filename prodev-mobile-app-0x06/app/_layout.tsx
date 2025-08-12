@@ -4,7 +4,7 @@ import "./global.css"
 export default function RootLayout() {
   return (
     <Stack screenOptions={{
-      // headerShown: false,
+      headerShown: false,
     }}>
       <Stack.Screen name="/" />
       <Stack.Screen name="join" />
